@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Portfolio - ZENITH</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Portfolio.css" />
+</head>
+<body>
+    <!-- Navigation bar with brand logo and section links -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="nav-zenith" href="#home">ZENITH</a>
+                <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <div id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Primary landing section with team introduction and engagement buttons -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="pretitle">Welcome to Our Collective</p>
+            <h1>ZENITH - 5 Minds, Infinite Possibilities</h1>
+            <p>
+                A collaborative CSE student team mastering responsive web development through Bootstrap, semantic HTML5, and mobile-first design principles.
+            </p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn-primary-custom">Explore Our Work</a>
+                <a href="#contact" class="btn-secondary-custom">Collaborate With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive team member display with circular card layout and detail panel -->
+    <section id="about">
+        <div class="container">
+            <div class="about-team-content-wrapper">
+                <div class="about-team-section">
+                    <h2 class="section-title">Meet Our Team</h2>
+                    <p class="section-subtitle">5 Talented Professionals</p>
+                </div>
+                <div class="about-team-wrapper">
+                    <div class="team-section-left">
+                        <div class="team-grid" id="teamGrid">
+                            <div class="team-member-card" data-index="0" data-name="Rahul Rajvanshi" data-avatar="👩‍💻" data-role="Lead Developer" data-bio="2+ years in full-stack development with specialization in WebGL and Three.js. Leads technical architecture and 3D visualization projects." data-skills="React • WebGL • Three.js • Node.js">
+                                <div class="member-image-container">
+                                    <img src="Images/Rahul-Rajvanshi.png" alt="Rahul Rajvanshi" class="member-image">
+                                </div>
+                                <div class="member-info-container">
+                                    <h3>Rahul Rajvanshi</h3>
+                                    <p class="member-role">UI/UX Designer</p>
+                                    <p class="member-bio">Design-driven developer with 6+ years creating beautiful, responsive interfaces. Expertise in user experience optimization and modern design systems.</p>
+                                    <p class="member-skills">Figma • React • CSS • UI Design</p>
+                                </div>
+                            </div>
+                            <div class="team-member-card" data-index="1" data-name="Rajan Saini" data-avatar="👩‍💻" data-role="UI/UX Designer" data-bio="Design-driven developer with 2+ years creating beautiful, responsive interfaces. Expertise in user experience optimization and modern design systems." data-skills="Figma • React • CSS • UI Design">
+                                <div class="member-image-container">
+                                    <img src="Images/Rajan-Saini.png" alt="Rajan Saini" class="member-image">
+                                </div>
+                                <div class="member-info-container">
+                                    <h3>Rajan Saini</h3>
+                                    <p class="member-role">Lead Developer</p>
+                                    <p class="member-bio">2+ years in full-stack development with specialization in WebGL and Three.js. Leads technical architecture and 3D visualization projects.</p>
+                                    <p class="member-skills">React • WebGL • Three.js • Node.js</p>
+                                </div>
+                            </div>
+                            <div class="team-member-card" data-index="2" data-name="Sharanpreet Singh Bains" data-avatar="👨‍🔬" data-role="Backend Engineer" data-bio="Infrastructure architect with 2+ years experience. Expert in cloud solutions, database optimization, and scalable system design for high-traffic applications." data-skills="AWS • PostgreSQL • Docker • Python">
+                                <div class="member-image-container">
+                                    <img src="Images/Sharanpreet-Singh-Bains.jpeg" alt="Sharanpreet Singh Bains" class="member-image">
+                                </div>
+                                <div class="member-info-container">
+                                    <h3>Sharanpreet Singh Bains</h3>
+                                    <p class="member-role">Backend Engineer</p>
+                                    <p class="member-bio">Infrastructure architect with 7+ years experience. Expert in cloud solutions, database optimization, and scalable system design for high-traffic applications.</p>
+                                    <p class="member-skills">AWS • PostgreSQL • Docker • Python</p>
+                                </div>
+                            </div>
+                            <div class="team-member-card" data-index="3" data-name="Harpreet" data-avatar="👩‍🎨" data-role="Creative Director" data-bio="Visionary creative with 2+ years in digital strategy and brand development. Ensures every project aligns with client goals and delivers measurable impact." data-skills="Branding • Strategy • Animation • Storytelling">
+                                <div class="member-image-container">
+                                    <img src="Images/Harpreet.jpeg" alt="Harpreet" class="member-image">
+                                </div>
+                                <div class="member-info-container">
+                                    <h3>Harpreet</h3>
+                                    <p class="member-role">Creative Director</p>
+                                    <p class="member-bio">Visionary creative with 5+ years in digital strategy and brand development. Ensures every project aligns with client goals and delivers measurable impact.</p>
+                                    <p class="member-skills">Branding • Strategy • Animation • Storytelling</p>
+                                </div>
+                            </div>
+                            <div class="team-member-card" data-index="4" data-name="Sunaina" data-avatar="👨‍💡" data-role="Product Manager" data-bio="Strategic thinker with 6+ years bridging tech and business. Specializes in project management, client relations, and delivering results-driven solutions." data-skills="Agile • Project Management • Analytics">
+                                <div class="member-image-container">
+                                    <img src="Images/Sunaina.jpeg" alt="Sunaina" class="member-image">
+                                </div>
+                                <div class="member-info-container">
+                                    <h3>Sunaina</h3>
+                                    <p class="member-role">Product Manager</p>
+                                    <p class="member-bio">Strategic thinker with 6+ years bridging tech and business. Specializes in project management, client relations, and delivering results-driven solutions.</p>
+                                    <p class="member-skills">Agile • Project Management • Analytics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-section-right" id="detailPanel">
+                        <!-- Detail content will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">What We Offer as a Team</p>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <img src="Images/Software-design-architecture.png" alt="Software-design-architecture-icon">
+                </div>
+                <div class="service-card fade-in" style="animation-delay: 0.2s;">
+                    <img src="Images/Application-development.png" alt="Application-development-icon">
+                </div>
+                <div class="service-card fade-in" style="animation-delay: 0.4s;">
+                    <img src="Images/System-integration-and-automation.png" alt="System-integration-and-automation-icon">
+                </div>
+                <div class="service-card fade-in" style="animation-delay: 0.6s;">
+                    <img src="Images/Testing-debugging-andperformance.png" alt="Testing-debugging-andperformance-icon">
+                </div>
+                <div class="service-card fade-in" style="animation-delay: 0.8s;">
+                    <img src="Images/Deployment-maintance-and-security.png" alt="Deployment-maintenance-and-security-icon">
+                </div>
+                <div class="service-card-info fade-in">
+                    <h3>Software Design & Architecture</h3>
+                    <p>
+                        Crafting robust software blueprints that ensure scalability, maintainability, and performance.
+                    </p>
+                </div>
+                <div class="service-card-info fade-in" style="animation-delay: 0.2s;">
+                    <h3>Application Development</h3>
+                    <p>
+                        Building responsive web and mobile applications using modern frameworks and best practices.
+                    </p>
+                </div>
+                <div class="service-card-info fade-in" style="animation-delay: 0.4s;">
+                    <h3>System Integration & Automation</h3>
+                    <p>
+                        Seamlessly connecting disparate systems and automating workflows to enhance efficiency and reduce manual effort.
+                    </p>
+                </div>
+                <div class="service-card-info fade-in" style="animation-delay: 0.6s;">
+                    <h3>Testing, Debugging & Performance Optimization</h3>
+                    <p>
+                        Ensuring software reliability through rigorous testing, debugging, and performance tuning.
+                    </p>
+                </div>
+                <div class="service-card-info fade-in" style="animation-delay: 0.8s;">
+                    <h3>Deployment, Maintenance & Security</h3>
+                    <p>
+                        Managing end-to-end deployment processes, ongoing maintenance, and implementing robust security measures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Featured Projects</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-header">
+                        <div class="portfolio-image">
+                            <img src="Images/DNA.png" alt="GENAID Secure DNA Identity System architecture overview" loading="lazy" style="rotate: 90deg;">
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Hackathon · System Design</span>
+                            <h3 class="portfolio-title">
+                                GENAID — Secure DNA Identity System
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-footer">
+                        <p class="portfolio-desc">
+                            A conceptual forensic system designed to securely collect, store, and match DNA profiles using scalable databases and advanced matching algorithms. Emphasis is placed on ethical DNA collection, privacy-preserving encryption, and international crime-solving capabilities.
+                        </p>
+                        <div class="portfolio-meta">
+                            <span class="meta-tag">System Architecture</span>
+                            <span class="meta-tag">Forensics</span>
+                            <span class="meta-tag">Privacy Engineering</span>
+                            <span class="meta-tag">Scalable Databases</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/XYLON-ctrl/Assets/blob/main/GENAID.pdf" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                                View Project Deck (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-header">
+                        <div class="portfolio-image">
+                            <img src="Images/Animal-type-classification.png" alt="Animal Zenith AI-based animal type classification workflow" loading="lazy"/>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">
+                                Smart India Hackathon 2025 · AI / Computer Vision
+                            </span>
+                            <h3 class="portfolio-title">
+                                Animal Zenith — AI-Based Animal Type Classification
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-footer">
+                        <p class="portfolio-desc">
+                            An AI-powered system for automated Animal Type Classification (ATC) of cattle and buffaloes using smartphone images. The solution applies image segmentation, landmark detection, and vision transformer models to measure body traits and generate standardized ATC scores, designed to work in offline-first rural environments.
+                        </p>
+                        <div class="portfolio-meta">
+                            <span class="meta-tag">Computer Vision</span>
+                            <span class="meta-tag">Vision Transformers</span>
+                            <span class="meta-tag">Image Segmentation</span>
+                            <span class="meta-tag">Offline AI</span>
+                            <span class="meta-tag">AgriTech</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/XYLON-ctrl/Assets/blob/main/Animal%20Type%20Sence.pdf" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                                View Project Deck (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-header">
+                        <div class="portfolio-image">
+                            <img src="Images/Smart-office-automation.png" alt="Smart Office Automation system architecture and motion detection workflow" loading="lazy"/>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">
+                                Automation · Computer Vision · Energy Management
+                            </span>
+                            <h3 class="portfolio-title">
+                                Smart Office Automation & Energy Management
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-footer">
+                        <p class="portfolio-desc">
+                            A motion-detection–based automation system designed to reduce energy wastage in offices. The system uses computer vision to detect human or object movement and automatically controls lights and appliances, while logging energy usage data for analysis and visualization through a dashboard.
+                        </p>
+                        <div class="portfolio-meta">
+                            <span class="meta-tag">Python</span>
+                            <span class="meta-tag">OpenCV</span>
+                            <span class="meta-tag">Automation Systems</span>
+                            <span class="meta-tag">Energy Analytics</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/XYLON-ctrl/Assets/blob/main/Smart%20Office.pdf" target="_blank" rel="noopener noreferrer" class="portfolio-link">
+                                View Project Deck (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What Clients Say</p>
+            <div class="testimonials-grid">
+                <div class="testimonials-row">
+                    <div class="track">
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Designed a scalable and privacy-aware system architecture for secure DNA data handling, focusing on ethical considerations and real-world forensic constraints."
+                            </p>
+                            <div class="testimonial-author">GENAID Project</div>
+                            <div class="testimonial-role">System Design · Hackathon</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Applied computer vision techniques to automate animal body trait analysis using smartphone images under offline-first rural conditions."
+                            </p>
+                            <div class="testimonial-author">Animal Zenith</div>
+                            <div class="testimonial-role">Smart India Hackathon 2025</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Built an end-to-end AI pipeline combining image segmentation, landmark detection, and transformer-based models for classification tasks."
+                            </p>
+                            <div class="testimonial-author">Animal Zenith</div>
+                            <div class="testimonial-role">Computer Vision · AI</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Developed a motion-detection automation system to reduce energy wastage through automatic device control and usage logging."
+                            </p>
+                            <div class="testimonial-author">Smart Office Automation</div>
+                            <div class="testimonial-role">Automation · Energy Management</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Focused on system limitations, scalability challenges, and realistic constraints instead of overselling prototype capabilities."
+                            </p>
+                            <div class="testimonial-author">Project Philosophy</div>
+                            <div class="testimonial-role">Engineering Judgment</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Hands-on experience translating problem statements into structured architectures, workflows, and defensible technical decisions."
+                            </p>
+                            <div class="testimonial-author">Overall Experience</div>
+                            <div class="testimonial-role">B.Tech CSE Projects</div>
+                        </div>
+                        <!-- Duplicate for infinite scroll -->
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Designed a scalable and privacy-aware system architecture for secure DNA data handling, focusing on ethical considerations and real-world forensic constraints."
+                            </p>
+                            <div class="testimonial-author">GENAID Project</div>
+                            <div class="testimonial-role">System Design · Hackathon</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Applied computer vision techniques to automate animal body trait analysis using smartphone images under offline-first rural conditions."
+                            </p>
+                            <div class="testimonial-author">Animal Zenith</div>
+                            <div class="testimonial-role">Smart India Hackathon 2025</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Built an end-to-end AI pipeline combining image segmentation, landmark detection, and transformer-based models for classification tasks."
+                            </p>
+                            <div class="testimonial-author">Animal Zenith</div>
+                            <div class="testimonial-role">Computer Vision · AI</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Developed a motion-detection automation system to reduce energy wastage through automatic device control and usage logging."
+                            </p>
+                            <div class="testimonial-author">Smart Office Automation</div>
+                            <div class="testimonial-role">Automation · Energy Management</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Focused on system limitations, scalability challenges, and realistic constraints instead of overselling prototype capabilities."
+                            </p>
+                            <div class="testimonial-author">Project Philosophy</div>
+                            <div class="testimonial-role">Engineering Judgment</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Hands-on experience translating problem statements into structured architectures, workflows, and defensible technical decisions."
+                            </p>
+                            <div class="testimonial-author">Overall Experience</div>
+                            <div class="testimonial-role">B.Tech CSE Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-row">
+                    <div class="track">
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Worked under hackathon constraints such as limited data, offline requirements, and strict evaluation criteria."
+                            </p>
+                            <div class="testimonial-author">Smart India Hackathon</div>
+                            <div class="testimonial-role">Real-World Constraints</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Improved understanding of privacy, ethics, and compliance in sensitive technology domains like forensics and biometric systems."
+                            </p>
+                            <div class="testimonial-author">GENAID</div>
+                            <div class="testimonial-role">Ethics & Security</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Strengthened skills in Python, OpenCV, data processing, and system-level thinking through iterative project development."
+                            </p>
+                            <div class="testimonial-author">Technical Growth</div>
+                            <div class="testimonial-role">Core Engineering Skills</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Focused on building explainable systems rather than black-box demos, especially for government and public-sector problem statements."
+                            </p>
+                            <div class="testimonial-author">Design Approach</div>
+                            <div class="testimonial-role">Explainable Systems</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Balanced feasibility, performance, and usability instead of chasing unrealistic accuracy claims."
+                            </p>
+                            <div class="testimonial-author">Engineering Decisions</div>
+                            <div class="testimonial-role">Practical Trade-offs</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Portfolio projects designed to be discussion-ready for interviews, not just visually impressive demos."
+                            </p>
+                            <div class="testimonial-author">Portfolio Strategy</div>
+                            <div class="testimonial-role">Interview-Focused</div>
+                        </div>
+                        <!-- Duplicate for infinite scroll -->
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Worked under hackathon constraints such as limited data, offline requirements, and strict evaluation criteria."
+                            </p>
+                            <div class="testimonial-author">Smart India Hackathon</div>
+                            <div class="testimonial-role">Real-World Constraints</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Improved understanding of privacy, ethics, and compliance in sensitive technology domains like forensics and biometric systems."
+                            </p>
+                            <div class="testimonial-author">GENAID</div>
+                            <div class="testimonial-role">Ethics & Security</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Strengthened skills in Python, OpenCV, data processing, and system-level thinking through iterative project development."
+                            </p>
+                            <div class="testimonial-author">Technical Growth</div>
+                            <div class="testimonial-role">Core Engineering Skills</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Focused on building explainable systems rather than black-box demos, especially for government and public-sector problem statements."
+                            </p>
+                            <div class="testimonial-author">Design Approach</div>
+                            <div class="testimonial-role">Explainable Systems</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Balanced feasibility, performance, and usability instead of chasing unrealistic accuracy claims."
+                            </p>
+                            <div class="testimonial-author">Engineering Decisions</div>
+                            <div class="testimonial-role">Practical Trade-offs</div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">
+                                "Portfolio projects designed to be discussion-ready for interviews, not just visually impressive demos."
+                            </p>
+                            <div class="testimonial-author">Portfolio Strategy</div>
+                            <div class="testimonial-role">Interview-Focused</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's Work Together</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <div class="info-icon">📧</div>
+                        <h4>Email</h4>
+                        <p>
+                            <a href="mailto:Zenith@gmail.com" style="color: #0896fc; text-decoration: none;">
+                                Zenith@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="info-block">
+                        <div class="info-icon">📱</div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-block">
+                        <div class="info-icon">📍</div>
+                        <h4>Location</h4>
+                        <p>Rupnagar, Punjab</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ZENITH. All rights reserved. | Crafted with innovation and excellence</p>
+        </div>
+    </footer>
+
+    <script src="Portfolio.js"></script>
+</body>
+</html>
